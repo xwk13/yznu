@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>涪陵文化文创产品</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1e3d58;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product-item {
+            width: 30%;
+            margin: 15px 0;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-item img {
+            max-width: 100%;
+        }
+        .product-item h3 {
+            font-size: 1.5em;
+        }
+        .product-item p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .experience-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>涪陵文化文创产品</h1>
+    </header>
+
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#products">系列产品</a>
+        <a href="#experience">线上体验馆</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>欢迎来到涪陵文化文创世界</h2>
+        <p>探索涪陵独特的文化背景，体验结合传统与现代设计的文创产品。</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2>系列文化产品</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="D:\长江师范学院\比赛和作业\亚太杯\Microsoft VS Code\QQ截图20241127161113.jpg" alt="虎纹帆布包">
+                <h3>虎纹大容量帆布包</h3>
+                <p>以古巴文化中的白虎为设计灵感，展现勇气与力量。</p>
+            </div>
+            <div class="product-item">
+                <img src="D:\长江师范学院\比赛和作业\亚太杯\Microsoft VS Code\QQ截图20241127161101.jpg" alt="鹤形餐匙">
+                <h3>鹤形餐匙</h3>
+                <p>灵感来源于涪陵白鹤梁文化，细腻的设计展现了涪陵道教文化的精髓。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="experience">
+        <div class="experience-section">
+            <h2>线上文化体验馆</h2>
+            <p>通过我们的线上体验馆，您可以了解每一款产品背后的文化故事。</p>
+            <h3>设计原型与故事</h3>
+            <p>通过有声书和互动讲解，感受涪陵文化的深厚底蕴。</p>
+            <div>
+                <h4>与设计师说</h4>
+                <p>请在留言板留下您的声音，设计师会根据您的反馈不断改进产品。</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 涪陵文化文创产品 | 所有权利保留</p>
+    </footer>
+
+</body>
+</html>
